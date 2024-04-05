@@ -1,0 +1,34 @@
+{
+    "$schema": "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "capacityName": {
+            "type": "String"
+        },
+        "location": {
+            "type": "String"
+        },
+        "numberOfUnits": {
+            "type": "Int"
+        },
+        "crossGeoCompute": {
+            "type": "String"
+        },
+        "geo": {
+            "type": "String"
+        }
+    },
+    "resources": [
+        {
+            "type": "Microsoft.SecurityCopilot/capacities",
+            "apiVersion": "2023-12-01-preview",
+            "name": "[parameters('capacityName')]",
+            "location": "[parameters('location')]",
+            "properties": {
+                "numberOfUnits": "[parameters('numberOfUnits')]",
+                "crossGeoCompute": "[parameters('crossGeoCompute')]",
+                "geo": "[parameters('geo')]"
+            }
+        }
+    ]
+}
