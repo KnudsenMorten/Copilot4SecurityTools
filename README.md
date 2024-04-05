@@ -34,5 +34,7 @@ NOTE: Remember to edit the amounts of SCUs and region in the files for your need
 
 You can automate the configuration using any method like Scheduled Tasks software like Task Scheduler, VisualCron - or Azure Function or LogicApps. Aaron Hoffman made a great article on how to to this in LogicApp [here](https://medium.com/@aaron.hoffmann/scheduling-microsoft-copilot-for-security-capacities-20f4b26f1999)
 
+Here is an example of doing this as jobs using VisualCron (Advanced Task Scheduler)
+
 ![image-20240405184741166](https://github.com/KnudsenMorten/Copilot4SecurityTools/blob/main/img/image-20240405184741166.png)
 
