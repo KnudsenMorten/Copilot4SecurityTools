@@ -15,7 +15,7 @@ Some of my customers are not having 24x7 SOC but still wants to utilize Microsof
 
 This spreadsheet can be used to calculate the capacity cost.
 
-[Excel file - Cost Calculator](https://github.com/KnudsenMorten/Copilot4SecurityTools/blob/main/CostCalculator/Microsoft%20Copilot%20for%20Security%20Cost%20Calculator.xlsx )
+[Excel file - Cost Calculator](https://github.com/KnudsenMorten/Copilot4SecurityTools/raw/main/CostCalculator/Microsoft%20Copilot%20for%20Security%20Cost%20Calculator.xlsx )
 
 Example of cost per month, based on peak in the morning with degrade of capacity requirement around noon. Capacity is removed at 4pm, when IT dept goes home. No 24x7 SOC.
 
