@@ -19,6 +19,15 @@ Cost Calculator for Scalable Capacity and Deployment scripts
 
 You can manually edit the amounts of SCUs and region in the files for your needs
 
+![image-20240405185205986](C:\Users\mok.2LINKIT\OneDrive - 2linkIT\Documents\GitHub\Copilot4SecurityTools\img\image-20240405185205986.png)
+
+| File                                                    | Purpose                                                      | SCUs (sample) |
+| ------------------------------------------------------- | ------------------------------------------------------------ | ------------- |
+| DeploymentCopilot4SecurityCapacity_SCU_High_Usage.ps1   | Gives highest amount of SCUs. Typically used in the morning for example from 8-10am, when  security incidents are being analyzed (peak) | 4             |
+| DeploymentCopilot4SecurityCapacity_SCU_Medium_Usage.ps1 | Gives medium amount of SCUs. Typically used in the morning after initial security incident analysis for example from 10-11am | 2             |
+| DeploymentCopilot4SecurityCapacity_SCU_Low_Usage.ps1    | Gives lowest amount of SCUs. Typically used when peak for security analyses are over and normal security operation happens for example from 11am-4pm | 1             |
+| DeleteCopilotf4SecurityCapacity.ps1                     | Removes capacity, so there will be no capacity cost in off-hours where IT dept. works. Used in scenarios with no 24x7 Security SOC. This can run for example at 4pm when IT dept goes home. | 0             |
+
 
 
 ## Automation of Capacity Change
