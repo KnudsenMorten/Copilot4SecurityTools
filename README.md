@@ -19,7 +19,9 @@ Cost Calculator for Scalable Capacity and Deployment scripts
 
 You can manually edit the amounts of SCUs and region in the files for your needs
 
-![image-20240405185205986](C:\Users\mok.2LINKIT\OneDrive - 2linkIT\Documents\GitHub\Copilot4SecurityTools\img\image-20240405185205986.png)
+![image-20240405185205986](https://github.com/KnudsenMorten/Copilot4SecurityTools/blob/main/img/image-20240405185205986.png)
+
+
 
 | File                                                    | Purpose                                                      | SCUs (sample) |
 | ------------------------------------------------------- | ------------------------------------------------------------ | ------------- |
