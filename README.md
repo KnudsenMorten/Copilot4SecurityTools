@@ -9,7 +9,7 @@ Cost Calculator for Scalable Capacity and Deployment scripts
 
 
 
-![image-20240405183838900](C:\Users\mok.2LINKIT\OneDrive - 2linkIT\Documents\GitHub\Copilot4SecurityTools\img\image-20240405183838900.png)
+![image-20240405183838900](https://github.com/KnudsenMorten/Copilot4SecurityTools/blob/main/img/image-20240405183838900.png)
 
 
 
@@ -25,5 +25,5 @@ You can manually edit the amounts of SCUs and region in the files for your needs
 
 You can automate the configuration using any method like Scheduled Tasks software like Task Scheduler, VisualCron; Azure Function; LogicApps, etc.
 
-![image-20240405184741166](C:\Users\mok.2LINKIT\OneDrive - 2linkIT\Documents\GitHub\Copilot4SecurityTools\img\image-20240405184741166.png)
+![image-20240405184741166](https://github.com/KnudsenMorten/Copilot4SecurityTools/blob/main/img/image-20240405184741166.png)
 
