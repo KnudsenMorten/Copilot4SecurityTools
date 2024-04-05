@@ -11,7 +11,7 @@
     $SubId           = "your-subscription-id"
     $Location        = "your-region"   # sample: "westeurope"
     $RG              = "your-resource-group" # sample: "rg-copilot-security"
-    $ResourceName    = "your unique-resource-name" # "2linkitcopilotsecurity"
+    $ResourceName    = "your unique-resource-name" # sample: "xxxxcopilotsecurity"
     $crossGeoCompute = "Allowed"
     $numberOfUnits   = 2 # can be any number - remember cost per SCU/hour
     $geo             = "your-copilot4security-region" # sample: eu,eastus

@@ -9,7 +9,7 @@
     $SubId           = "your-subscription-id"
     $Location        = "your-region"   # sample: "westeurope"
     $RG              = "your-resource-group" # sample: "rg-copilot-security"
-    $ResourceName    = "your unique-resource-name" # "2linkitcopilotsecurity"
+    $ResourceName    = "your unique-resource-name" # sample: "xxxxcopilotsecurity"
     $ResourceType    = "microsoft.securitycopilot/capacities"
 
 
