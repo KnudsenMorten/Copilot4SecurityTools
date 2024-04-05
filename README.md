@@ -1,5 +1,13 @@
 # Copilot for Security Tools
-Cost Calculator for Scalable Capacity and Deployment scripts
+This GitHub repo contains info on
+
+[Cost Calculator for Scalable Capacity]: https://github.com/KnudsenMorten/Copilot4SecurityTools/tree/main#cost-calculator-for-scalable-deployment-of-capacity
+
+
+
+Deployment script for Scalable Deployment of Capacity
+
+Automation of Capacity Change
 
 
 
