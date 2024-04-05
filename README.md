@@ -31,7 +31,7 @@ Example of cost per month, based on peak in the morning with degrade of capacity
 
 
 
-## Deployment script for Scalable Deployment of Capacity
+## Deployment scripts for Scalable Deployment of Capacity
 
 [Link to ZIP-file with all files](https://github.com/KnudsenMorten/Copilot4SecurityTools/archive/refs/heads/main.zip)
 
