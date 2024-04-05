@@ -1,21 +1,19 @@
 # Copilot for Security Tools
 This GitHub repo contains info on
 
-[Cost Calculator for Scalable Capacity]: https://github.com/KnudsenMorten/Copilot4SecurityTools/tree/main#cost-calculator-for-scalable-deployment-of-capacity	"Cost Calculator for Scalable Capacity"
+[Cost Calculator for Scalable Capacity](https://github.com/KnudsenMorten/Copilot4SecurityTools/tree/main#cost-calculator-for-scalable-deployment-of-capacity)
 
+[Deployment script for Scalable Deployment of Capacity](https://github.com/KnudsenMorten/Copilot4SecurityTools/tree/main#deployment-script-for-scalable-deployment-of-capacity)
 
-
-Deployment script for Scalable Deployment of Capacity
-
-Automation of Capacity Change
+[Automation of Capacity Change](https://github.com/KnudsenMorten/Copilot4SecurityTools/tree/main#automation-of-capacity-change)
 
 
 
 ## **Cost Calculator for Scalable Deployment of Capacity**
 
-[Link]: https://github.com/KnudsenMorten/Copilot4SecurityTools/blob/main/CostCalculator/Microsoft%20Copilot%20for%20Security%20Cost%20Calculator.xlsx
+[Excel file - Cost Calculator](https://github.com/KnudsenMorten/Copilot4SecurityTools/blob/main/CostCalculator/Microsoft%20Copilot%20for%20Security%20Cost%20Calculator.xlsx )
 
-
+Example of cost per month, based on peak in the morning with degrade of capacity requirement around noon. Capacity is removed at 4pm, when IT dept goes home. No 24x7 SOC.
 
 ![image-20240405183838900](https://github.com/KnudsenMorten/Copilot4SecurityTools/blob/main/img/image-20240405183838900.png)
 
@@ -23,7 +21,7 @@ Automation of Capacity Change
 
 ## Deployment script for Scalable Deployment of Capacity
 
-[Link]: https://github.com/KnudsenMorten/Copilot4SecurityTools/tree/main/ScalableDeployment
+[Link to ZIP-file with all files](https://github.com/KnudsenMorten/Copilot4SecurityTools/archive/refs/heads/main.zip)
 
 | File                                                    | Purpose                                                      | SCUs (sample) |
 | ------------------------------------------------------- | ------------------------------------------------------------ | ------------- |
@@ -42,7 +40,7 @@ NOTE: Remember to edit the amounts of SCUs and region in the files for your need
 
 You can automate the configuration using any method like Scheduled Tasks software like Task Scheduler, VisualCron - or Azure Function or LogicApps. Aaron Hoffman made a great article on how to to this in LogicApp [here](https://medium.com/@aaron.hoffmann/scheduling-microsoft-copilot-for-security-capacities-20f4b26f1999)
 
-Here is an example of doing this as jobs using VisualCron (Advanced Task Scheduler)
+Below is an example of doing this as 4 jobs using VisualCron (Advanced Task Scheduler)
 
 ![image-20240405184741166](https://github.com/KnudsenMorten/Copilot4SecurityTools/blob/main/img/image-20240405184741166.png)
 
