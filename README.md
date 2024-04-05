@@ -9,11 +9,19 @@ This GitHub repo contains info on
 
 
 
+## Background
+
+Some of my customers are not having 24x7 SOC but still wants to utilize Microsoft Copilot for Security during their normal workhours, typically Monday-Friday from 8am-4pm. 
+
+During this time they want to have a scalable capacity with most capacity in the morning (peak) and then less capacity in the afternoon. When they go home, they want the capacity to be removed until next day at 8am. 
+
+This scenario will decrease the cost for Copilot for Security significantly as it is only running during their workhours.
+
+
+
 ## **Cost Calculator for Scalable Deployment of Capacity**
 
-Some of my customers are not having 24x7 SOC but still wants to utilize Microsoft Copilot for Security during their normal workhours, typically Monday-Friday from 8am-4pm. During this time they want to have a scalable capacity with most capacity in the morning (peak) and then less capacity in the afternoon. When they go home, they want the capacity to be removed until next day at 8am. This scenario will decrease the cost for Copilot for Security significantly as it is only running during their workhours.
-
-This spreadsheet can be used to calculate the capacity cost.
+This spreadsheet can be used to calculate the capacity cost for a non-24x7 SOC scenario, where Copilot for Security is used with different sizing during the day (high, medium, low capacity usage) during for example 8am-4pm operation.
 
 [Excel file - Cost Calculator](https://github.com/KnudsenMorten/Copilot4SecurityTools/raw/main/CostCalculator/Microsoft%20Copilot%20for%20Security%20Cost%20Calculator.xlsx )
 
