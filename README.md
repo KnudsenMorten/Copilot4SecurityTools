@@ -35,12 +35,12 @@ Example of cost per month, based on peak in the morning with degrade of capacity
 
 [Link to ZIP-file with all files](https://github.com/KnudsenMorten/Copilot4SecurityTools/archive/refs/heads/main.zip)
 
-| Purpose                                                      | SCUs (sample) | File                                                |
-| ------------------------------------------------------------ | ------------- | --------------------------------------------------- |
-| High. Gives highest amount of SCUs. Typically used in the morning for example from 8-10am, when  security incidents are being analyzed (peak) | 4             | DeploymentCopilot4SecurityCapacity_SCU_High_Usage   |
-| Medium. Gives medium amount of SCUs. Typically used in the morning after initial security incident analysis for example from 10-11am | 2             | DeploymentCopilot4SecurityCapacity_SCU_Medium_Usage |
-| Low. Gives lowest amount of SCUs. Typically used when peak for security analyses are over and normal security operation happens for example from 11am-4pm | 1             | DeploymentCopilot4SecurityCapacity_SCU_Low_Usage    |
-| Delete. Removes capacity, so there will be no capacity cost in off-hours where IT dept. works. Used in scenarios with no 24x7 Security SOC. This can run for example at 4pm when IT dept goes home. | 0             | DeleteCopilotf4SecurityCapacity                     |
+| Purpose                                                      | SCUs (sample) | File                                                        |
+| ------------------------------------------------------------ | ------------- | ----------------------------------------------------------- |
+| High  - Gives highest amount of SCUs.   <br />Typically used in the morning for example from 8-10am, when  security incidents are being analyzed (peak) | 4             | DeploymentCopilot4Security  <br />Capacity_SCU_High_Usage   |
+| Medium - Gives medium amount of SCUs. <br />Typically used in the morning after initial security incident analysis for example from 10-11am | 2             | DeploymentCopilot4Security  <br />Capacity_SCU_Medium_Usage |
+| Low - Gives lowest amount of SCUs. <br />Typically used when peak for security analyses are over and normal security operation happens for example from 11am-4pm | 1             | DeploymentCopilot4Security <br />Capacity_SCU_Low_Usage     |
+| Delete - Removes capacity, so there will be no capacity cost in off-hours where IT dept. works. Used in scenarios with no 24x7 Security SOC. This can run for example at 4pm when IT dept goes home. | 0             | DeleteCopilotf4SecurityCapacity                             |
 
 NOTE: Remember to edit the amounts of SCUs and region in the files for your needs
 
