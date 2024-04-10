@@ -21,9 +21,9 @@ This scenario will decrease the cost for Copilot for Security significantly as i
 
 ## Disclaimer about pricing
 
-Since Microsoft Copilot for Security came out April 1, 2024, I expect some fine-tuning of technical conditions and pricing along the way. Therefore the idea behind this method and price examples may change, if Microsoft introduces changes in price structure or technical conditions in the future.
-
-**I recommend to monitor [this webpage](https://www.microsoft.com/en-us/security/business/ai-machine-learning/microsoft-copilot-security) to check out the latest about Microsoft Copilot for Security.**
+> Since Microsoft Copilot for Security came out April 1, 2024, I expect some fine-tuning of technical conditions and pricing along the way. Therefore the idea behind this method and price examples may change, if Microsoft introduces changes in price structure or technical conditions in the future.
+>
+> **I recommend to monitor [this webpage](https://www.microsoft.com/en-us/security/business/ai-machine-learning/microsoft-copilot-security) to check out the latest about Microsoft Copilot for Security.**
 
 
 
@@ -37,7 +37,7 @@ Example of cost per month, based on peak in the morning with degrade of capacity
 
 ![image-20240405183838900](https://github.com/KnudsenMorten/Copilot4SecurityTools/blob/main/img/image-20240405183838900.png)
 
-**NOTE: This spreadsheet doesn't replace Microsoft Azure Price Calculator, which should be used, as it contains latest on pricing and conditions for your region and environment.**
+> **NOTE: This spreadsheet doesn't replace Microsoft Azure Price Calculator, which should be used, as it contains latest on pricing and conditions for your region and environment.**
 
 
 
