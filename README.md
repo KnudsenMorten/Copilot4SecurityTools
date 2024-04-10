@@ -19,6 +19,14 @@ This scenario will decrease the cost for Copilot for Security significantly as i
 
 
 
+## Disclaimer about pricing
+
+Since Microsoft Copilot for Security came out April 1, 2024, I expect some fine-tuning of technical conditions and pricing along the way. Therefore the idea behind this method and price examples may change, if Microsoft introduces changes in price structure or technical conditions in the future.
+
+**I recommend to monitor [this webpage](https://www.microsoft.com/en-us/security/business/ai-machine-learning/microsoft-copilot-security) to check out the latest about Microsoft Copilot for Security.**
+
+
+
 ## **Cost Calculator for Scalable Deployment of Capacity**
 
 This spreadsheet can be used to calculate the capacity cost for a non-24x7 SOC scenario, where Copilot for Security is used with different sizing during the day (high, medium, low capacity usage) during for example 8am-4pm operation.
@@ -28,6 +36,8 @@ This spreadsheet can be used to calculate the capacity cost for a non-24x7 SOC s
 Example of cost per month, based on peak in the morning with degrade of capacity requirement around noon. Capacity is removed at 4pm, when IT dept goes home. No 24x7 SOC.
 
 ![image-20240405183838900](https://github.com/KnudsenMorten/Copilot4SecurityTools/blob/main/img/image-20240405183838900.png)
+
+**NOTE: Please understand that this spreadsheet doesn’t replace Microsoft Azure Calculator, which should be used, as it contains latest on pricing and conditions for your region and environment.**
 
 
 
@@ -50,7 +60,7 @@ NOTE: Remember to edit the amounts of SCUs and region in the files for your need
 
 ## Automation of Capacity Change
 
-You can automate the configuration using any method like Scheduled Tasks software like Task Scheduler, VisualCron - or Azure Function or LogicApps. Aaron Hoffman made a great article on how to to this in LogicApp [here](https://medium.com/@aaron.hoffmann/scheduling-microsoft-copilot-for-security-capacities-20f4b26f1999)
+You can automate the configuration using any method like Scheduled Tasks software like Task Scheduler, VisualCron - or Azure Function, Azure DevOps or LogicApps. Aaron Hoffman made a great article on how to to this in LogicApp [here](https://medium.com/@aaron.hoffmann/scheduling-microsoft-copilot-for-security-capacities-20f4b26f1999)
 
 Below is an example of doing this as 4 jobs using VisualCron (Advanced Task Scheduler)
 
