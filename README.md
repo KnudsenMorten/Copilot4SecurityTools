@@ -37,7 +37,7 @@ Example of cost per month, based on peak in the morning with degrade of capacity
 
 ![image-20240405183838900](https://github.com/KnudsenMorten/Copilot4SecurityTools/blob/main/img/image-20240405183838900.png)
 
-> **NOTE: This spreadsheet doesn't replace Microsoft Azure Price Calculator, which should be used, as it contains latest on pricing and conditions for your region and environment.**
+> **NOTE: This spreadsheet doesn't replace Microsoft Azure Price Calculator. Microsoft Azure Price Calculator contains latest on pricing and conditions for your region and environment.**
 
 
 
