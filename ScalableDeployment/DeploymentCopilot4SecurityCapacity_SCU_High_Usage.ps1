@@ -48,17 +48,17 @@
         {
             New-AzResourceGroup -Name $rg -Location $location -Force
         }
-
-# Remove existing capacity
-    If (!(Get-AzResource -Name $rg -ResourceGroupName $rg))
+    Else
         {
             Write-host "Removing Microsoft Copilot for Security capacity ... Please Wait !"
-            Remove-AzResource -ResourceName $resourcename `
-                              -ResourceType $resourcetype `
-                              -ResourceGroupName $rg `
-                              -Force `
-                              -Verbose
+            Remove-AzResourceGroup $rg `
+                                   -Force `
+                                   -Verbose
+
+            # create RG again to make sure billing seeing this as a new RG
+            New-AzResourceGroup -Name $rg -Location $location -Force
         }
+
 
 # Deploy
     Write-host "Deploying Microsoft Copilot for Security capacity ... Please Wait !"

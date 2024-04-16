@@ -39,12 +39,7 @@
 #>
 
 # Remove existing capacity
-    If (!(Get-AzResource -Name $rg -ResourceGroupName $rg))
-        {
-            Write-host "Removing Microsoft Copilot for Security capacity ... Please Wait !"
-            Remove-AzResource -ResourceName $resourcename `
-                              -ResourceType $resourcetype `
-                              -ResourceGroupName $rg `
-                              -Force `
-                              -Verbose
-        }
+    Write-host "Removing Microsoft Copilot for Security capacity ... Please Wait !"
+    Remove-AzResourceGroup $rg `
+                            -Force `
+                            -Verbose
