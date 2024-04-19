@@ -44,7 +44,7 @@
 #>
 
 # Create Resource Group
-    If (!(Get-AzResourceGroup -Name $rg -Location $location))
+    If (!(Get-AzResourceGroup -Name $rg -Location $location -ErrorAction SilentlyContinue))
         {
             New-AzResourceGroup -Name $rg -Location $location -Force
         }
